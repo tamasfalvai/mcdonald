@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Roboto+Slab:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.egész {
+    display: flex;
+}
+
+.fele {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 950px;
+    padding: 20px;
+    background: #ffbb01;
+    width: 952px;
+}
+
+.fele2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 950px;
+    padding: 20px;
+    background: #2fa5b0;
+    width: 952px;
+}
+
+
+
+
+.k {
+    border-radius: 50px;
+    background: #ffbb00;
+    width: 80px;
+    height: 80px;
+    border: 2px solid red;
+    font-size: 40px;
+    display: flex;
+    
+}
+
+.k:hover {
+    background: #ffffff;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.k h2 {
+    margin: 0;
+    padding: 0;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.karika {
+    display: flex;
+    gap: .4rem;
+    padding-left: 200px;
+    
+}
+
+#főkép {
+    margin: 0;
+    padding: 0;
+    margin-left: -420px;
+    width: 100%;
+}
+
+
+#főkép2{
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    margin-left: -300px;
+
+}
+
+
+.jobboldal {
+    margin: 0;
+    padding: 0;
+    float: right;
+    width: 20%;
+}
+
+.aha{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.baloldal {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 15%;
+}
+
+.sz2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: rgb(255, 0, 0);
+    text-shadow: 4px 4px 10px rgb(123, 3, 3);
+    align-self: flex-end; /* Jobbra igazítás a .fele div-en belül */
+}
+
+.sz3 {
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 20px;
+    text-shadow: 4px 4px 10px black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start; /* Balra igazítás a .fele2 div-en belül */
+    margin: 0;
+    padding: 0;
+    
+}
+
+.sz3 h2{
+    width: 300px;
+}
+
+h2 {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.sz {
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    padding-left: -30px;
+    width: 600px;
+    gap: 1rem;
+}
+
+.sz h2{
+    margin: 0;
+    width: 300px;
+    color: red;
+    text-shadow: 0px 0px 20px red;
+}
+
+#elsők{
+    color: red;
+    text-shadow: 0px 0px 20px red;
+}
+
+.bold{
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 50px red;
+}
+
+a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    
+}
